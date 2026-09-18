@@ -1,0 +1,30 @@
+Functions Non Modifying Seqence Operation
+
++ ranges::all_of
+
++ ranges::any_of
+
++ ranges::none_of
+
+
+# for_each
+
++ ranges::for_each(c++20)
+
++ for_each_n(c++17)
+
++ ranges::for_each_n(c++20)
+
+# count
+
+* count_if
+
++ ranges::count(c++20)
+
++ ranges::count_if(c++20)
+
+# mismatch
+
++ ranges::mismatch
+
+# etc;
