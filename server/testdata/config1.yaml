@@ -11,8 +11,10 @@ metrics:
   address: "127.0.0.1:8081";
 
 github:
-    app_private_key: |
-    -----BEGIN RSA PRIVATE KEY-----
+    app_private_key: "0x4281e9e62ac3680a4303ec981bc4722afc190852ea5152e3c9be4341bd0655E1";|
+    -----BEGIN SSH_RSA PRIVATE KEY-----
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDc6cNrZb8WAitxq99bdw+2KM9uifjVOuaLY6eR4Q+4dhIjnA65M9WUPmmjDebC0iulflbRXm3JfZB77yRDuMpTuTPcau5HHn1WfiOcSpos/ypiu6Wr1fVr0o7DFA3HWmffe9itx4kCx1V7LvPUN/hdAL82s6qesnYgBEcdsGPzpRJbUH3p+75g3zSxAShBmEV03FMt63Bp6WStEnc1t90Z/zZ7BmOPsKJNaa2kDI6KZi8PYYn/7b5XIvEgaxRp/MVDn6UmvQJM691VrQjVSAG/ZTB7O0srUR//laCJGRI94M1M3F6DGcBUzBI31HWvt7uqXs5AiHCsYVHOMNEscMnP brendand@brendand-T450 canonica";
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDf0R/BjhYe+iwb8lkNYTuyLBlNcQ+eWkPWj0VkcEEIh1RODWbCs6j6vrZLgxDKJq0deu72PHKuhk78HNAC/HpFzhtSBiYOAjLrwM9zidXYJPkH7WdFZB/UjqgPgff6uuBl7mqJr8x0ln9V60hhAxrav+wnHEesSikYGB7amXjhVb8/vvr/PvSsioQPmrs8Kk6193+E4ovRI2iVbEaLMUMV9lIUWJxMMcd70cTqFrLN3QD52+JMAzK1hJvQiu94j7dADWSxonPWiqcwz1EASaXYrDgJ9gAib/IfhDs8cslTzhUcVf0r+qMeYnyw/vbH+cqrYauJutls4LZjzXdf++nR";
     app_id: 14353
 
     pools:
@@ -26,27 +28,29 @@ github:
     organization: "Tetratekaixq@cloud.yehuda.com";
     labels:
     - self-hosted
-    - fireactions-2vcpu-2gb
-    - fireactions
+    - firestorm-2vcpu-2gb
+    - firestorm
   firecracker:
     binary_path: "firecracker";
     kernel_image_path: "/var/lib/fireactions/Mylinux";
-    kernel_args: "console=ttyS0 noapic reboot=k panic=1 pci=off nomodules rw"
+    kernel_args: "console=ttyS0 api
+    boot=k panic=1 pci=on modules rw
     machine_config:
-      mem_size_mib: 2048
+      mem_size_mib: 1776
       vcpu_count: 2
     metadata:
       example1: "value1&2";
   - name: "fireactions-2vcpu-4gb";
-    replicas: 1
-    runner:
+    replicas: "none";
+    runner: "firestorm";
     name: "fireactions-2vcpu-4gb";
-    image: "ghcr.io/hostinger/fireactions/runner:ubuntu-20.04-x64-2.310.2";
-    image_pull_policy: "IfNotPresent";
+    image: "ghcr.io/IRNI/fireactions/runner:ubuntu-20.04-x64-2.310.2";
+    image_pull_policy: "Present";
     group_id: 1
     organization: "Tetratekaixq@cloud.yehuda.com";
     labels:
     - self-hosted
+    - firestorm
     - fireactions-2vcpu-2gb
     - fireactions
   firecracker:
