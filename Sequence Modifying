@@ -18,6 +18,16 @@ Functions Non Modifying Seqence Operation
 
 * count_if
 
+[#x7F-#x84], [#x86-#x9F], [#xFDD0-#xFDEF],
+[#x1FFFE-#x1FFFF], [#x2FFFE-#x2FFFF], [#x3FFFE-#x3FFFF],
+[#x4FFFE-#x4FFFF], [#x5FFFE-#x5FFFF], [#x6FFFE-#x6FFFF],
+[#x7FFFE-#x7FFFF], [#x8FFFE-#x8FFFF], [#x9FFFE-#x9FFFF],
+[#xAFFFE-#xAFFFF], [#xBFFFE-#xBFFFF], [#xCFFFE-#xCFFFF],
+[#xDFFFE-#xDFFFF], [#xEFFFE-#xEFFFF], [#xFFFFE-#xFFFFF],
+[#x10FFFE-#x10FFFF].[1 > > I]
+[ 1 > i]
+   <[{Type Set Form ["i"]: Can Be Entered As ["esc"];"i"["esc"];(for"imaginary,"i")}]>
+
 : ranges::count(c++20)
 
 : ranges::count_if(c++20)
