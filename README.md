@@ -84,15 +84,26 @@ Use "fireactions [command] --help" for more information about a command.
 See the [User Guide](https://fireactions.io/latest/) for installation and configuration instructions.
 
 ## Contributing
-> • Port 993-IMAP-OUES-SSL.
 
-> • Layer layer -PPP-DSL-wi-fi-etc.
+• Port 20-FTP(file transfer protocol).
 
-> • Internal Layer -IPV4 -IPV6.
+• Port 22-SSH&SFTP.
 
-> • Transport Layer -TCP,UDP,UDPS,etc.
+• Port 25-SMTP(OUTGOING EMAIL).
 
-> • Application Layer -HTTP,IMAP,FTP,etc
+• Port 465-SMTP-OVER-SSL.
+
+• Port 143-IMAP(Incoming Email).
+
+• Port 993-IMAP-OVER-SSL.
+
+• Layer layer -PPP-DSL-wi-fi-etc.
+
+• Internal Layer -IPV4 -IPV6.
+
+• Transport Layer -TCP,UDP,UDPS,etc.
+
+• Application Layer -HTTP,IMAP,FTP,etc
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute to Fireactions.
 
