@@ -2,9 +2,9 @@
 
 ![Banner](docs/img/banner_violet.png)
 
-``` nested
+""" nested
    span style="font-family:Times
- This Is Times Font And<i>this is in italics</i>.</font>```
+ This Is Times Font And<i>this is in italics</i>.</font>
 
 Fireactions is an orchestrator for GitHub runners. BYOM (Bring Your Own Metal) and run self-hosted GitHub runners in ephemeral, fast and secure [Firecracker](https://firecracker-microvm.github.io/) based virtual machines.
 
