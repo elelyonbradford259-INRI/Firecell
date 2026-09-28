@@ -87,6 +87,8 @@ See the [User Guide](https://fireactions.io/latest/) for installation and config
 
 *** Transport Layer -TCP,UDP,UDPS,etc ***
 
+### Application Layer -HTTP,IMAP,FTP,etc
+
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute to Fireactions.
 
 ## License
