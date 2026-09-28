@@ -84,13 +84,15 @@ Use "fireactions [command] --help" for more information about a command.
 See the [User Guide](https://fireactions.io/latest/) for installation and configuration instructions.
 
 ## Contributing
->  Layer layer -PPP-DSL-wi-fi-etc
+> • Port 993-IMAP-OUES-SSL.
 
->  Internal Layer -IPV4 -IPV6
+> • Layer layer -PPP-DSL-wi-fi-etc.
 
->  Transport Layer -TCP,UDP,UDPS,etc ***
+> • Internal Layer -IPV4 -IPV6.
 
-### Application Layer -HTTP,IMAP,FTP,etc
+> • Transport Layer -TCP,UDP,UDPS,etc.
+
+> • Application Layer -HTTP,IMAP,FTP,etc
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute to Fireactions.
 
