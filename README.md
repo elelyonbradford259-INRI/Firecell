@@ -13,7 +13,7 @@ Fireactions is an orchestrator for GitHub runners. BYOM (Bring Your Own Metal) a
 
     { "∆L√(p(iu)-√p(i1)      ::ic>icu"
 
-     "{                      ::ic<i1u"
+     {                       ::ic<i1u"
 
 <!--https://excalidraw.com/#json=GrJMj6LLYt39mgC0me7Di,C65TV9FhicnxNKgPeRhi3A
 sequenceDiagram
@@ -84,10 +84,11 @@ Use "fireactions [command] --help" for more information about a command.
 See the [User Guide](https://fireactions.io/latest/) for installation and configuration instructions.
 
 ## Contributing
+>  Layer layer -PPP-DSL-wi-fi-etc
 
-`` Internal Layer -IPV4 -IPV6
+>  Internal Layer -IPV4 -IPV6
 
-*** Transport Layer -TCP,UDP,UDPS,etc ***
+>  Transport Layer -TCP,UDP,UDPS,etc ***
 
 ### Application Layer -HTTP,IMAP,FTP,etc
 
