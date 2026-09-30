@@ -111,7 +111,20 @@ See the [User Guide](https://fireactions.io/latest/) for installation and config
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on how to contribute to Fireactions.
 
-## License:
+••• License:
+<!DOCTYPE html PUBLIC /W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Embedded Sequence Viewer with parameters</title>
+<script type="text/javascript" src="https://www.ncbi.nlm.nih.gov/projects/sviewer/js/sviewer.js">
+</script>
+</head>
+<body>
+<div id="sviewer_NCBI" class="SeqViewerApp" data-autoload>
+<a href="?embedded=true&report=graph&tracks=[key:feature_track,name:Repeat region,display_name:Repeat region,id:STD3463812800,subkey:repeat_region,annots:Unnamed,shown:true,order:0][key:sequence_track,name:T1404743,display_name:Sequence,id:T1404743,dbname:GenBank,annots:NA,ShowLabel:false,ColorGaps:false,shown:true,order:1][key:gene_model_track,name:Genes,display_name:Genes,id:STD3194982005,annots:Unnamed,Options:MergeAll,CDSProductFeats:false,NtRuler:true,AaRuler:true,HighlightMode:2,ShowLabel:true,shown:true,order:2]&assm_context=GCF_000005845.1&v=1:4639675&c=969696&select=null&slim=0&appname=no_appname"></a>
+</div>
+</body>
+</html>https://www.ncbi.nlm.nih.gov/nuccore/49175990?report=graph&tracks=[key:feature_track,name:Repeat region,display_name:Repeat region,id:STD3463812800,subkey:repeat_region,annots:Unnamed,shown:true,order:0][key:sequence_track,name:T1404743,display_name:Sequence,id:T1404743,dbname:GenBank,annots:NA,ShowLabel:false,ColorGaps:false,shown:true,order:1][key:gene_model_track,name:Genes,display_name:Genes,id:STD3194982005,annots:Unnamed,Options:MergeAll,CDSProductFeats:false,NtRuler:true,AaRuler:true,HighlightMode:2,ShowLabel:true,shown:true,order:2]&assm_context=GCF_000005845.1&v=1:4639675&c=969696&select=null&slim=0
 <?xml version="1.0" encoding="us-ascii"?>
 <feed
 xmlns="http://www.w3.org/2005/Atom"
