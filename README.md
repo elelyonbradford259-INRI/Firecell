@@ -1,4 +1,4 @@
-[Go]:https://goreportcard.com/badge/github.com/elelyon.org/fireactions)](https://goreportcard.com/report/github.com/hostinger/fireactions)
+[Go]:https://goreportcard.com/badge/github.com/elelyon.org/fireactions)](https://goreportcard.com/report/github.com/ElelyonBradford259IRNI/fireactions)
 
 ![Banner](docs/img/banner_violet.png)
 
