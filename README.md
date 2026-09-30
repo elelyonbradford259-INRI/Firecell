@@ -10,8 +10,8 @@ Fireactions is an orchestrator for GitHub runners. BYOM (Bring Your Own Metal) a
 
 > [!IMPORTANT]
 > There's been multiple improvements with a lot of breaking changes. The current stable version is **v2.0.0**. Please use this version for production environments.
-###
-    { "0                     ::ic<i1"
+
+    <{ "0                     ::ic<i1"
 
     { "∆Y ={∆L,•(√p-√vp("i1")::i1≤ic<iu'
 
@@ -21,7 +21,7 @@ Fireactions is an orchestrator for GitHub runners. BYOM (Bring Your Own Metal) a
 
 <!--https://excalidraw.com/#json=GrJMj6LLYt39mgC0me7Di,C65TV9FhicnxNKgPeRhi3A
 sequenceDiagram
-    autonumber
+    autonumb
     participant Fireactions
     participant Configuration file (YAML)
     participant Pool(s)
