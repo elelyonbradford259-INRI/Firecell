@@ -86,8 +86,8 @@ Use "fireactions [command] --help" for more information about a command.
 ```
 
 See the [User Guide](https://fireactions.io/latest/) for installation and configuration instructions.
-
-## Contributing
+``
+## [Contributing]
 
 • Port 20-FTP(file transfer protocol).
 
